@@ -1,0 +1,71 @@
+#page{
+    width: 99vw;
+    margin: 0 auto;
+}
+
+section{
+    width : 60rem;
+    margin: 0 auto;
+}
+.chart_name button{
+    border: none;
+    background:none;
+}
+li{
+    list-style: none;
+}
+.chart_name li, .rank{
+    display: inline-block;
+}
+.ranking{
+    margin: 0 0 0 2rem;
+}
+.rank{
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.scheduled{
+    color: grey;
+}
+.movie_btn{
+    position: relative;
+}
+.chart_detail ,.movie_reserve{
+    width: 4.7rem;
+    height: 1.5rem;
+    background-color: lemonchiffon;
+    border: 3px;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    text-align: center;
+}
+.chart_detail {
+    left: 37px;
+    top: 50px;
+}
+
+.movie_reserve {
+    left: 37px;
+    top: 80px;
+
+}
+
+.movie_name{
+    text-align: center;
+    width: 130px;           
+    white-space: nowrap;    
+    overflow: hidden;       
+    text-overflow: ellipsis;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+.movie_btn img{
+    width: 120px;
+    height: 160px;
+}
