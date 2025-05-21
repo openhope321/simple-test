@@ -10,7 +10,7 @@ $(function() {
         $(".name3").text("다크나이트");
         $(".name4").text("부산행");
         $(".name5").text("판의 미로 - 오필리아와 세 개의 열쇠");
-        $(".mchart").css("color","grey");
+        $(".mchart").css("color","gray");
         $(".scheduled").css("color","black");
     });
 });
@@ -27,7 +27,7 @@ $(function() {
         $(".name4").text("판의 미로 - 오필리아와 세 개의 열쇠");
         $(".name5").text("범죄도시3");
         $(".mchart").css("color","black");
-        $(".scheduled").css("color","grey");
+        $(".scheduled").css("color","gray");
     });
 });
 

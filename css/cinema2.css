@@ -13,7 +13,7 @@ nav {
 
 /* 상단: 브랜드 + 메뉴 */
 .top-bar {
-
+  white-space: nowrap; 
     padding-top: 5rem;
   display: flex;
   justify-content: space-between;
@@ -26,6 +26,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
+  white-space: nowrap; 
 }
 
 /* 메뉴들 스타일 */
